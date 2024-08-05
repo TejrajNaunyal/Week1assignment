@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #fafafa; 
+    background-color: #fafafa;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #333; 
+    color: #333;
     text-align: center;
     margin: 20px 0;
     font-size: 2.5em;
@@ -57,4 +57,42 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Mobile Responsive Media Query */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .image-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+        margin: 15px 0;
+    }
+
+    .container {
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .image-wrapper {
+        width: 120px;
+        height: 120px;
+    }
 }

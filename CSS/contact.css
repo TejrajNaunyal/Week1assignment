@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; 
+    background-color: #f0f8ff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -44,12 +44,12 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #87cefa; 
+    border-color: #87cefa;
     outline: none;
 }
 
 button {
-    background-color: #4682b4; 
+    background-color: #4682b4;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -60,5 +60,49 @@ button {
 }
 
 button:hover {
-    background-color: #1e90ff; 
+    background-color: #1e90ff;
 }
+
+/* Mobile Responsive Media Query */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px 30px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    input, textarea {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    input, textarea {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 0.8em;
+    }
+}
+    
